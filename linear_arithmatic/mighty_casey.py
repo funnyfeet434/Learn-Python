@@ -1,5 +1,5 @@
 import math
-import numpy as np 
+import numpy as np
 
 def in_upper_quadrants(vector_2d):
     result = False
