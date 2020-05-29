@@ -1,4 +1,8 @@
-import numpy as np 
+import numpy as np
+np.random.seed(0)  # seed for reproducibility
 
-mylist = np.array([range(i, i + 4) for i in [2, 4, 6]])
-print(mylist)
+x1 = np.random.randint(10, size=6)  # One-dimensional array
+x2 = np.random.randint(10, size=(3, 4))  # Two-dimensional array
+x3 = np.random.randint(10, size=(3, 4, 5))  # Three-dimensional array
+
+print(x3)
